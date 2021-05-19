@@ -154,32 +154,37 @@ h2 {
 }
 
 /*----Get In Touch Section----*/
-.find-dealer-section {
+.in-touch-section {
   border-bottom: 2px solid;
   border-color: black;
 }
 
-.find-dealer-section h2 {
+.in-touch-section h2 {
   margin-bottom: 4rem;
   padding-top: 2rem;
   font-size: 48px;
 }
 
-.find-dealer-section iframe {
+.in-touch-section iframe {
   height: 800px;
   width: 100%;
 }
 
 .days-hours {
-  margin-left: 15rem !important;
-  margin-right: 15rem !important;
+  margin-left: 18rem !important;
+  margin-right: 18rem !important;
 }
 
-.days {
+.days-hours table {
+  line-height: 2.25rem;
+  width: 100%;
+}
+
+#day {
   text-align: left;
 }
 
-.hours {
+#time {
   text-align: right;
 }
 
@@ -191,6 +196,10 @@ h2 {
 
 #cta-locations:hover {
   color: #aaaaaa;
+}
+
+.current-day {
+  background-color: #aaaaaa
 }
 
 /*-------------------*/
