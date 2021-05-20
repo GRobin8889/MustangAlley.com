@@ -27,7 +27,7 @@ window.onclick = function(event) {
   }
 }
 
-///////// Automatically Highlight Day of the Week in 'find-dealer-section' ////////////
+///////// Automatically Highlight Day of the Week in 'in-touch-section' ////////////
 let day = new Date();
 let weekday = new Array(7);
 weekday[0] = "sun";
