@@ -29,6 +29,10 @@ h2 {
   color: white;
 }
 
+#header-contact-mobile {
+  visibility: hidden;
+}
+
 /*----Main Header Section & Navigation----*/
 .header-section {
   background-color: #073763;
@@ -38,8 +42,8 @@ h2 {
 
 .navbar {
   padding: 0 0 4.5rem;
-  margin-left: 40px !important;
-  margin-right: 40px !important;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .nav-item {
@@ -316,4 +320,37 @@ h2 {
   font-weight: bold;
 }
 
+/*---------------------*/
 /*----Media Queries----*/
+@media screen and (max-width: 1024px) {
+  #header-contact {
+    display: none;
+  }
+
+  #header-contact-mobile {
+    visibility: visible;
+  }
+
+  .hero-section {
+    min-height: 400px;
+  }
+
+  .hero video {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .hero-section {
+    min-height: 300px;
+  }
+
+  .hero video {
+    height: 300px;
+  }
+}
