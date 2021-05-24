@@ -39,5 +39,3 @@ weekday[5] = "fri";
 weekday[6] = "sat";
 
 document.getElementsByClassName(weekday[day.getDay()])[0].classList.add("current-day");
-
-///////// Replace the DOM elements unique identifiers "#social-media" and "header-contact" when max-width of screen is 1024px ////////////
