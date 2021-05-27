@@ -175,8 +175,8 @@ h2 {
 }
 
 .days-hours {
-  margin-left: 18rem !important;
-  margin-right: 18rem !important;
+  margin-left: 18rem;
+  margin-right: 18rem;
 }
 
 .days-hours table {
@@ -338,19 +338,39 @@ h2 {
   .hero video {
     height: 400px;
   }
-}
 
-@media screen and (max-width: 520px) {
-  .navbar {
+  .current-models-section p {
+    font-size: 12px;
+  }
+
+  .current-models-section button {
+    font-size: 12px;
+  }
+
+  .about-us-section p {
+    font-size: 12px;
+  }
+
+  .days-hours {
     margin-left: 20px;
     margin-right: 20px;
   }
 
-  .hero-section {
-    min-height: 300px;
+  #cta-locations {
+    font-size: 24px;
   }
 
-  .hero video {
-    height: 300px;
+  @media screen and (max-width: 520px) {
+    .navbar {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .hero-section {
+      min-height: 300px;
+    }
+
+    .hero video {
+      height: 300px;
+    }
   }
-}
